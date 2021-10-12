@@ -1,42 +1,132 @@
-body{
-    background-color:#621402;
-   font-family: 'Roboto', sans-serif;
+body {
+  background-color: #621402;
+  font-family: "Roboto", sans-serif;
+  color:#fff;
 }
-.container{
-    max-width: 1170px;
-    margin: auto;
+.container {
+  max-width: 1170px;
+  margin: auto;
 }
-.header{
-    display: flex;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.header {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%),
+    url("../img/bg.jpg") no-repeat center top / cover;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.menu{
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    margin-left: 17px;
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  margin-left: 17px;
 }
-.menu-item{
-    margin-right: 25px;
+.menu-item {
+  margin-right: 25px;
 }
-.menu-link{
-    color: white;
-    text-decoration: none;
-    
+.menu-link {
+  color: white;
+  text-decoration: none;
 }
-.user{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    color: #fff;
+.user {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #fff;
 }
-.avatar{
-    width: 33px;
-    height: 33px;
-    margin-left: 11px;
-    border-radius: 50%;
+.avatar {
+  width: 33px;
+  height: 33px;
+  margin-left: 11px;
+  border-radius: 50%;
+}
+.film {
+  margin-top: 60px;
+  color: #fff;
+}
 
+.film-title-small {
+  opacity: 0.5;
+  font-size: 24px;
+  line-height: 150%;
+}
+.film-title {
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 11px;
+  margin-bottom: 23px;
+}
+
+.film-description {
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 560px;
+}
+.film {
+  display: flex;
+  align-items: center;
+}
+.film-trailer{
+  margin: auto;
+}
+/* .film-additional-info {
+  display: flex;
+  margin-top: 47px;
+  font-size: 16px;
+  color: #fff;
+}
+.film-duration{
+  display: flex;
+  align-items: center;
+  margin-right: 34px;
+}
+.icon-clock{
+  margin-right: 14px;
+}
+.clock{
+  line-height: 150%;
+}
+.film-rating{
+  display: flex;
+  align-items:center;
+}
+.icon-imdb{
+    border-radius: 10%;
+}
+.rating{
+  font-size: 16px;
+  margin-left: 12px;
+  line-height: 150%; 
+}
+.rating-bold{
+  margin-right: 6px;
+  font-size: 24px;
+} */
+.film-details{
+  margin-top: 51px;
+  display: flex;
+  align-items:center;
+}
+.time{
+  display: flex;
+  align-items: center;
+}
+.time-icon{
+  margin-right: 14px;
+}
+.rating{
+  display: flex;
+  align-items: center;
+  margin-left: 34px;
+}
+.rating-icon{
+  margin-right: 12px;
+}
+.rating-current{
+  font-size: 24px;
+  line-height: 150%;
 }
