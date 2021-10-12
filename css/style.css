@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: #621402;
   font-family: "Roboto", sans-serif;
@@ -73,39 +76,6 @@ body {
 .film-trailer{
   margin: auto;
 }
-/* .film-additional-info {
-  display: flex;
-  margin-top: 47px;
-  font-size: 16px;
-  color: #fff;
-}
-.film-duration{
-  display: flex;
-  align-items: center;
-  margin-right: 34px;
-}
-.icon-clock{
-  margin-right: 14px;
-}
-.clock{
-  line-height: 150%;
-}
-.film-rating{
-  display: flex;
-  align-items:center;
-}
-.icon-imdb{
-    border-radius: 10%;
-}
-.rating{
-  font-size: 16px;
-  margin-left: 12px;
-  line-height: 150%; 
-}
-.rating-bold{
-  margin-right: 6px;
-  font-size: 24px;
-} */
 .film-details{
   margin-top: 51px;
   display: flex;
@@ -129,4 +99,66 @@ body {
 .rating-current{
   font-size: 24px;
   line-height: 150%;
+}
+.session{
+  margin-top: 62px;
+  padding-top: 46px;
+  padding-bottom: 63px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.session-label{
+  display: block;
+  margin-bottom: 20px;
+}
+.session-date-block{
+  display: flex;
+}
+.session-date-item{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+.session-month{
+  font-size: 16px;
+  line-height: 19px;
+}
+.session-day{
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+}
+.session-week{
+  font-size: 19px;
+  line-height: 22px;
+}
+.session-date-item:hover{
+  background-color: #FE8E05;
+  color: #621402;
+}
+
+.select{
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  color: #fff;
+  padding: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.select-cinema{
+  min-width: 470px;
 }
